@@ -1,0 +1,24 @@
+.modal {
+    width: 100%;
+}
+
+.modal-content {
+    background-color: lightgray;
+    font-size: large;
+    width: 80%;
+}
+
+.modal-header {
+    border-bottom: 1px solid grey;
+}
+
+.modal-title {
+    text-align: center;
+    color: black;
+}
+
+.modal-body {
+    background-color: #fbf3f3;
+    color: rgb(99, 91, 91);
+    padding: 2rem;
+}

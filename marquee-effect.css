@@ -1,0 +1,27 @@
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#cats-facts {
+    width:100%;
+    animation: marquee 10s linear infinite;
+}
+
+.cat-fact {
+    width:100%;
+    display: inline-block;
+}
+
+
+@keyframes marquee {
+0% {
+    transform: translateX(0%);
+}
+100% {
+    transform: translateX(-100%);
+}
+}
+
+
+  
